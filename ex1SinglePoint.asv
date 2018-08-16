@@ -1,5 +1,7 @@
+function PseudoColor(x,y,z)
 %Question 1, 2, 3
 lambda = 4.0e-3; % wavelength (8.0 mm)
+scrnDist = 5.0e-2; % distance to the screen (50 mm)
 scrnWdth = 2.4e-2; % width of the screen (+/- 12 mm)
 xs = 0; % x-coord of the source
 ys = 0; % y-coord of the source
