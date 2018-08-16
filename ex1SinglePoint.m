@@ -22,4 +22,4 @@ function ex1SinglePoint()
     lambda = 8.0e-3; % wavelength (8.0 mm)
     E8=((A)*cos(-2*pi*r/lambda))./r;
     mesh(X,Y,E8)
-return
+return;
